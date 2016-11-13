@@ -1,0 +1,4 @@
+This is the custom cron job feature, where any addon developers can add their custom cron scripts
+DO NOT MODIFY OR USE THE cron system IN THE core FOLDER if you do then you will be refused support by our developers.
+If you use this folder like intended, then we have no reason to refuse support.
+So if your addon wants you to place a file in the cronjob area in the core part of the script, place it in here instead!

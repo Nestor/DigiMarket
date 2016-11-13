@@ -1,0 +1,82 @@
+- Developer Notes -
+- Don’t worry if you don’t understand any of this, it’s not relevant for the common user
+- If something isn't documented properly, and you cant figure out what it is or you think other people may struggle, just write
+
+- File System -
+	- config  
+	config.php - basic configuration for your project  
+	init.php - your custom initialisation file, this stuff gets executed before the front-end is rendered  
+	- controllers - your custom controllers go in here
+	- core  
+	autoload.php - all core modules are being loaded in here  
+	init.php - the core objects are declared in here  
+	- custom - your custom modules live in here  
+	- library  
+	Modules - the core modules live in here  
+	- models - your models live in here  
+	- public  
+	.htaccess - rewrites /request to ?url=request and parses it to index.php  
+	index.php - loads the auoloader and handles the request  
+	- resources  
+	views - your custom views go in here
+
+————————————————————————————————————————————————————————————
+
+——————————————————————————————
+
+- File System (Dummy -> Exus) Version -
+
+——————————————————————————————
+
+	- config  
+		config.php - File for standard user customisation without any code modifications (plain english)
+		    	    — Soon there should be no need for this as it should be all GUI based
+
+——————————————————————————————
+
+	- Themes (controllers) 
+		- Theming folder, where the default theme is stored, and where you add your custom themes (remember to call it in in the config file)
+
+——————————————————————————————
+
+	- core  
+		autoload.php 
+			- any new functions from modules are called here.
+		init.php 
+			- the core modules/objects are declared in here  
+
+——————————————————————————————
+
+	- custom 
+		- Custom modules are stored here
+
+——————————————————————————————
+
+
+	- library  
+		- modules 
+			- default modules are stored here
+
+——————————————————————————————
+
+	
+	- public  
+		.htaccess - rewrites /request to ?url=request and parses it to index.php  
+		index.php - loads the autoloader and handles the request  
+
+
+——————————————————————————————
+
+————————————————————————————————————————————————————————————
+
+
+Library:
+	Modules:
+		User:
+			Auth:
+			User authentication - checks if the user is genuine or not
+			Ranking:
+			Add or remove ranks and users
+		IPN:
+		Instant Payment Notification -> for PayPal.
+	
