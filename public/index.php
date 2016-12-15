@@ -1,4 +1,6 @@
-<?php require("../core/init.php"); ?>
+<?php 
+require("../core/init.php");
+?>
 <!-- 
 	Files made up of HTML wont be commented because I cant be bothered to.
 	404 Comment not found

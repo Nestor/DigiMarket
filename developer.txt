@@ -1,5 +1,5 @@
 - Developer Notes -
-- Don’t worry if you don’t understand any of this, it’s not relevant for the common user
+- For DEVELOPERS only!
 - If something isn't documented properly, and you cant figure out what it is or you think other people may struggle, just write
 
 - File System -

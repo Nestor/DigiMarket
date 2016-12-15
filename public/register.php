@@ -1,16 +1,37 @@
-<?php require("../core/init.php"); ?>
+<?php 
+define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/projects/ElectricMarket");
+require(ROOT . "/library/modules/user/auth/auth.php");
+require(ROOT . "/core/init.php");
+
+?>
 <!-- 
 	Files made up of HTML wont be commented because I cant be bothered to.
-	Error Code 69420 - too much effort 
 -->
 <head>
 	<title><?php echo MARKET_NAME; ?> | Home</title>
 </head>
 
-<form action="../library/modules/user/auth/rauth.php" method="post">
+<form action="register.php" method="post">
 <label>Register</label><br><br>
 <input type="email" id="email" name="email" placeholder="Email" required />&nbsp
 <input type="text" id="username" name="username" placeholder="Username" required />&nbsp
+<input type="text" id="verify" name="verify" value=1 style="display:none;" />&nbsp
 <input type="password" id="password" name="password" placeholder="Password" required /><br><br>
-<input type="submit" onclick="document.write('If this is taking a while to load, please don\'t worry! Its normal :) ')" />
+<input type="submit" />
 </form>
+
+<?php
+	if (isset($_POST['verify'])) {
+		if ($_POST['verify'] == 1) {
+			echo "<br><br><br>";
+			$auth = new Auth;
+
+			$username = $_POST['username'];
+			$email = $_POST['email'];
+			$password = $_POST['password'];
+
+			$auth->userRegister($username, $email, $password, $init);
+
+		}
+ 	}
+?>
