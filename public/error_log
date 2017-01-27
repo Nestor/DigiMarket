@@ -1,0 +1,125 @@
+[25-Jan-2017 18:30:38 UTC] PHP Warning:  require(/home/exlabsco/public_html/projects/ElectricMarket/config/configuration.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 11
+[25-Jan-2017 18:30:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/exlabsco/public_html/projects/ElectricMarket/config/configuration.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 11
+[25-Jan-2017 18:31:37 UTC] PHP Warning:  require(/home/exlabsco/public_html/projects/ElectricMarket/library/modules/user/auth/auth.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:31:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/exlabsco/public_html/projects/ElectricMarket/library/modules/user/auth/auth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:32:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'exlabsco_digimarket.us' doesn't exist' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:70
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(70): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/login.php(27): Auth->doLogin('exusvx@gmail.co...', 'd6567d4991')
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 70
+[25-Jan-2017 18:34:45 UTC] PHP Warning:  require(/home/exlabsco/public_html/DigiMarket-master/library/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:34:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/exlabsco/public_html/DigiMarket-master/library/core/init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:36:14 UTC] PHP Warning:  require(/home/exlabsco/public_html/DigiMarket-master/library/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:36:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/exlabsco/public_html/DigiMarket-master/library/core/init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:36:17 UTC] PHP Warning:  require(/home/exlabsco/public_html/DigiMarket-master/library/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:36:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/exlabsco/public_html/DigiMarket-master/library/core/init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/login.php on line 3
+[25-Jan-2017 18:36:38 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 68
+[25-Jan-2017 18:38:07 UTC] PHP Warning:  require(/home/exlabsco/public_html/projects/ElectricMarket/library/modules/user/auth/auth.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/register.php on line 3
+[25-Jan-2017 18:38:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/exlabsco/public_html/projects/ElectricMarket/library/modules/user/auth/auth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/register.php on line 3
+[25-Jan-2017 18:38:35 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 32
+[25-Jan-2017 18:39:48 UTC] PHP Notice:  Undefined variable: website_root in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 30
+[25-Jan-2017 18:39:48 UTC] PHP Notice:  Constant 10 already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 38
+[25-Jan-2017 18:39:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/register.php:11) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 50
+[25-Jan-2017 18:40:05 UTC] PHP Notice:  Undefined variable: website_root in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 30
+[25-Jan-2017 18:40:05 UTC] PHP Notice:  Constant 10 already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 38
+[25-Jan-2017 18:40:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:40:14 UTC] PHP Notice:  Undefined variable: website_root in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 29
+[25-Jan-2017 18:40:14 UTC] PHP Notice:  Constant 10 already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 37
+[25-Jan-2017 18:40:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:40:50 UTC] PHP Notice:  Constant 10 already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 37
+[25-Jan-2017 18:40:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:41:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:42:28 UTC] PHP Warning:  require(ROOT/config/configuration.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 8
+[25-Jan-2017 18:42:28 UTC] PHP Warning:  require(ROOT/config/configuration.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 8
+[25-Jan-2017 18:42:28 UTC] PHP Fatal error:  require(): Failed opening required 'ROOT/config/configuration.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 8
+[25-Jan-2017 18:42:44 UTC] PHP Notice:  Constant MARKET_NAME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 21
+[25-Jan-2017 18:42:44 UTC] PHP Notice:  Constant DEVELOPMENT already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 24
+[25-Jan-2017 18:42:44 UTC] PHP Notice:  Constant WEBSITE_DOMAIN already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 28
+[25-Jan-2017 18:42:44 UTC] PHP Notice:  Constant USER_LOGOUT_TIME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 32
+[25-Jan-2017 18:42:44 UTC] PHP Notice:  Constant PASS_HASH_COST already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 35
+[25-Jan-2017 18:42:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:43:24 UTC] PHP Notice:  Constant MARKET_NAME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 24
+[25-Jan-2017 18:43:24 UTC] PHP Notice:  Constant DEVELOPMENT already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 27
+[25-Jan-2017 18:43:24 UTC] PHP Notice:  Constant WEBSITE_DOMAIN already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 31
+[25-Jan-2017 18:43:24 UTC] PHP Notice:  Constant USER_LOGOUT_TIME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 35
+[25-Jan-2017 18:43:24 UTC] PHP Notice:  Constant PASS_HASH_COST already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 38
+[25-Jan-2017 18:43:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:43:28 UTC] PHP Notice:  Constant MARKET_NAME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 24
+[25-Jan-2017 18:43:28 UTC] PHP Notice:  Constant DEVELOPMENT already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 27
+[25-Jan-2017 18:43:28 UTC] PHP Notice:  Constant WEBSITE_DOMAIN already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 31
+[25-Jan-2017 18:43:28 UTC] PHP Notice:  Constant USER_LOGOUT_TIME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 35
+[25-Jan-2017 18:43:28 UTC] PHP Notice:  Constant PASS_HASH_COST already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 38
+[25-Jan-2017 18:43:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:43:30 UTC] PHP Notice:  Constant MARKET_NAME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 24
+[25-Jan-2017 18:43:30 UTC] PHP Notice:  Constant DEVELOPMENT already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 27
+[25-Jan-2017 18:43:30 UTC] PHP Notice:  Constant WEBSITE_DOMAIN already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 31
+[25-Jan-2017 18:43:30 UTC] PHP Notice:  Constant USER_LOGOUT_TIME already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 35
+[25-Jan-2017 18:43:30 UTC] PHP Notice:  Constant PASS_HASH_COST already defined in /home/exlabsco/public_html/DigiMarket-master/core/init.php on line 38
+[25-Jan-2017 18:43:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:43:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(33): Auth->userRegister('test', 'test@exlabs.net', 'test', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37
+[25-Jan-2017 18:44:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 79
+[25-Jan-2017 18:44:02 UTC] PHP Fatal error:  Cannot access empty property in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 81
+[25-Jan-2017 18:44:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 79
+[25-Jan-2017 18:45:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:11) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 79
+[25-Jan-2017 18:45:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:11) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 79
+[25-Jan-2017 18:45:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:11) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 79
+[25-Jan-2017 18:45:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 64
+[25-Jan-2017 18:45:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 80
+[25-Jan-2017 18:46:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 79
+[25-Jan-2017 18:47:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 77
+[25-Jan-2017 18:47:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 76
+[27-Jan-2017 16:53:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 76
+[27-Jan-2017 16:54:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/login.php:10) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 77
+[27-Jan-2017 17:01:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exlabsco/public_html/DigiMarket-master/public/register.php:11) in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 50
+[27-Jan-2017 17:02:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test2@exlabs.net' for key 'email'' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php:37
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php(37): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/register.php(34): Auth->userRegister('test2', 'test2@exlabs.ne...', 'test2', NULL)
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/auth/auth.php on line 37

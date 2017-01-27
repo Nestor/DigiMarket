@@ -1,5 +1,6 @@
 <?php 
-define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/projects/ElectricMarket");
+ob_start();
+define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
 require(ROOT . "/library/modules/user/auth/auth.php");
 require(ROOT . "/core/init.php");
 
@@ -34,4 +35,5 @@ require(ROOT . "/core/init.php");
 
 		}
  	}
+ob_end_flush();
 ?>

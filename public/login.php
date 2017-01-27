@@ -1,5 +1,6 @@
 <?php 
-define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/projects/ElectricMarket");
+ob_start();
+define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
 require(ROOT . "/library/modules/user/auth/auth.php");
 $auth = new Auth;
 ?>
@@ -29,5 +30,5 @@ if ( isset( $_POST['submitted'] ) ) {
 }  
 
 // Test
-
+ob_end_flush();
 ?>

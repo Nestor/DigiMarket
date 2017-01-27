@@ -61,7 +61,7 @@ header("Refresh:0; url=$redirect");
 
 
 function doLogin($email, $passwd) { 
-    require(ROOT . "/core/init.php");
+  require(ROOT . "/core/init.php");
 	$int = USER_LOGOUT_TIME;
     
 	/* Verify email prepared statement (password has verification comes in an if statement later) */
@@ -70,14 +70,14 @@ function doLogin($email, $passwd) {
 	$verifyEP->execute();
 
 	while ($vep = $verifyEP->fetch(PDO::FETCH_BOTH)) {
-        
         /* Verify password hashes */
 		if (password_verify($passwd, $vep['password'])) {
 			/* SuccessMsg */
+			  setcookie("username",$vep['username'],time()+$int);
+    		$_SESSION['password'] = $vep['password'];
     		echo 'User validated successfully!<br>Welcome back ' . $vep['username'];
     		echo '<br>We are just getting your account ready for use!';
-    		setcookie("username",$vep['username'],time()+$int);
-    		$_SESSION['password'] = $vep['password'];
+    		$this->authed = 1;
 		} else {
 			/* FailMsg */
     		echo 'Invalid Username or Password';
