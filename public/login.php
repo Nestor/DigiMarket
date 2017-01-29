@@ -1,11 +1,13 @@
-<?php 
+<?php
+session_start();
 ob_start();
 define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
+require(ROOT . "/core/init.php");
 require(ROOT . "/library/modules/user/auth/auth.php");
 $auth = new Auth;
 ?>
 <!-- 
-	Files made up of HTML wont be commented.
+	Files made up of HTML wont be commented in detail.
 -->
 <head>
 	<title><?php echo MARKET_NAME; ?> | Home</title>
@@ -26,9 +28,13 @@ if (!empty($_COOKIE['username']) and !empty($_COOKIE['password'])) {
 if ( isset( $_POST['submitted'] ) ) {
 	if ( $_POST['submitted'] == 1 ) {        
 		$auth->doLogin($_POST['email'], $_POST['password']);
+        if ($auth->authVal == 1) {
+            echo "Welcome back " . $auth->userName . "<br>Your account is now ready for use!";
+        } else {
+            echo "Something went wrong, please check your email or your password";
+        }
     }
 }  
 
-// Test
 ob_end_flush();
 ?>

@@ -1,7 +1,7 @@
 <?php
-
-define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
-
+if (!defined("ROOT")) {
+    define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
+}
 include("autoload.php");
 
 
@@ -9,18 +9,18 @@ include("autoload.php");
         require(ROOT . "/config/configuration.php");
         
         /* MySQL Information */
-        
-        define("SQL_SERVER_IP", $serverip);
-        define("SQL_USERNAME", $username);
-        define("SQL_PASSWORD", $password);
-        define("SQL_DB_NAME", $dbname);
-         
+        if (!defined("SQL_SERVER_IP")) {
+            define("SQL_SERVER_IP", $serverip);
+            define("SQL_USERNAME", $username);
+            define("SQL_PASSWORD", $password);
+            define("SQL_DB_NAME", $dbname);
+        }
         /* Require the Connection File */
         require(ROOT . "/library/modules/connect/pdo_connect.php");
         
         if(!defined("MARKET_NAME")) {
         
-        /* Market Name - e.g. ElectricMarket -> Whats shown on screen and in Emails */
+        /* Market Name - e.g. DigiMarket -> Whats shown on screen and in Emails */
         define("MARKET_NAME", $market_name);
 
         /* Developer Mode - Displays all errors -> Boolean (1/0) */
@@ -36,5 +36,8 @@ include("autoload.php");
 
         /* Hash Cost */
         define("PASS_HASH_COST", $hash_cost);
+
+        /* Item upload directory */
+        define("UPLOAD_DIR", ROOT . $fileUploadPath . "/");
         }
 ?>

@@ -3,24 +3,18 @@
 As of 25th Aug 2016, everything in this configuration is editable!
 */
 /* The name you want to call your marketplace */
-$market_name = "ElectricMarket";
+$market_name = "DigiMarket";
 
 /* MySQL Information */
 $serverip = "localhost";
-$username = "";
-$password = "";
-$dbname = "";
+$username = "exlabsco_dm";
+$password = "x275432";
+$dbname = "exlabsco_digimarket";
 
 $devmode = 1;
 
 /* The folder that this is stored in, if its in the main directory where you land when you goto your domain, then just set this to your domain name! */
-$website_root_user = "http://example.com/directory/DigiMarket"; // Dont leave / at the end
-/*
-Other Examples:
-http://example.com <- where you extract all the contents of the folder in digimarket to your public_html folder (or the equivalent)
-http://example.com/DigiMarket <- where you add the folder digimarket in
-http://example.com/market <- where you rename digimarket to whatever you want (in this case its market)
-*/
+$website_root_user = "http://wafflezzz.xyz/projects/ElectricMarket"; // Dont leave / at the end
 
 /* User timeout in minutes */
 $user_timeout = 30; 
@@ -41,8 +35,8 @@ define("COST_HIGH", 20);
 $hash_cost = COST_LOW;
 
 /* Self Explanatory -> Where all the digital goods are uploaded to */
-$fileUploadPath = "";
+$fileUploadPath = "/uploads/files";
 
 /* Self Explanatory -> Where all the images (excluding digital goods - see the above variable) are uploaded to */
-$imageUploadPath = "";
+$imageUploadPath = "/uploads/images";
 ?>

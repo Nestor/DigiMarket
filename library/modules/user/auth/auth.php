@@ -1,6 +1,5 @@
 <?php
 class Auth {
-
 /* Register */
 
 function userRegister($username, $email, $password) {
@@ -60,10 +59,11 @@ header("Refresh:0; url=$redirect");
 /* Login */
 
 
-function doLogin($email, $passwd) { 
+function doLogin($email, $passwd) {
   require(ROOT . "/core/init.php");
 	$int = USER_LOGOUT_TIME;
-    
+    $checkAuth = 0;
+
 	/* Verify email prepared statement (password has verification comes in an if statement later) */
 	$verifyEP = $conn->prepare("SELECT * FROM us WHERE email=:email");
 	$verifyEP->bindParam(":email", $email);
@@ -73,16 +73,19 @@ function doLogin($email, $passwd) {
         /* Verify password hashes */
 		if (password_verify($passwd, $vep['password'])) {
 			/* SuccessMsg */
-			  setcookie("username",$vep['username'],time()+$int);
-    		$_SESSION['password'] = $vep['password'];
-    		echo 'User validated successfully!<br>Welcome back ' . $vep['username'];
-    		echo '<br>We are just getting your account ready for use!';
-    		$this->authed = 1;
-		} else {
-			/* FailMsg */
-    		echo 'Invalid Username or Password';
+            $checkAuth = 1;
+			setcookie("username",$vep['email'],time()+$int);
+    		$_SESSION['password'] = $passwd;
+    		$verifiedUsername = $vep['username'];
 		}
 	}
+
+	if ($checkAuth == 1) {
+        $this->authVal = 1;
+        $this->userName = $verifiedUsername;
+    } else {
+        $this->authVal = 0;
+    }
 
 }
     
