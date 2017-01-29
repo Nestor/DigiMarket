@@ -5,7 +5,7 @@ define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
 require(ROOT . "/core/init.php");
 require(ROOT . "/library/modules/download/download.php");
 $download = new Download;
-$enabled = 1;
+$enabled = 0;
 
 $grabFiles = $conn->prepare("SELECT * FROM `items`");
 $grabFiles->execute();
