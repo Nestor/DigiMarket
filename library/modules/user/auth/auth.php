@@ -3,7 +3,7 @@ class Auth {
 /* Register */
 
 function userRegister($username, $email, $password) {
-define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/projects/ElectricMarket");
+define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
 require(ROOT . "/core/init.php");
     
 /* Get variables from the register page */

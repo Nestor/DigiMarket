@@ -1,0 +1,73 @@
+[08-Feb-2017 16:32:46 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 30
+[08-Feb-2017 16:33:29 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:29 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:29 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:31 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:31 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:31 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:32 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:32 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:32 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:33 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:33 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:33 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:34 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:34 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:34 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:35 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:35 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:35 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:36 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:36 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:36 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:37 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:33:37 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:33:37 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:05 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:35:05 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:05 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:07 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:35:07 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:07 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:08 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:35:08 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:08 UTC] PHP Notice:  Undefined index: password in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 10
+[08-Feb-2017 16:35:36 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:35:37 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:36:36 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:38:10 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:38:11 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:38:33 UTC] PHP Warning:  require(ROOT/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 7
+[08-Feb-2017 16:38:33 UTC] PHP Warning:  require(ROOT/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 7
+[08-Feb-2017 16:38:33 UTC] PHP Fatal error:  require(): Failed opening required 'ROOT/core/init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 7
+[08-Feb-2017 16:38:34 UTC] PHP Warning:  require(ROOT/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 7
+[08-Feb-2017 16:38:34 UTC] PHP Warning:  require(ROOT/core/init.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 7
+[08-Feb-2017 16:38:34 UTC] PHP Fatal error:  require(): Failed opening required 'ROOT/core/init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 7
+[08-Feb-2017 16:38:50 UTC] PHP Notice:  Constant /home/exlabsco/public_html/DigiMarket-master already defined in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 5
+[08-Feb-2017 16:43:39 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:44:27 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:44:27 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 10
+[08-Feb-2017 16:44:29 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:44:29 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 10
+[08-Feb-2017 16:44:30 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:44:30 UTC] PHP Notice:  Undefined property: Ranks::$authed in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 10
+[08-Feb-2017 16:45:08 UTC] PHP Notice:  Undefined index: username in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:45:16 UTC] PHP Notice:  Undefined index: email in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:45:36 UTC] PHP Notice:  Undefined index: email in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:45:38 UTC] PHP Notice:  Undefined index: email in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 9
+[08-Feb-2017 16:46:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php:31
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php(31): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php(8): Ranks->checkRank('test@exlabs.net', 'test', '-')
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 31
+[08-Feb-2017 16:46:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php:31
+Stack trace:
+#0 /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php(31): PDOStatement->execute()
+#1 /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php(8): Ranks->checkRank('test@exlabs.net', 'test', '-')
+#2 {main}
+  thrown in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 31
+[08-Feb-2017 16:46:44 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37
+[08-Feb-2017 16:46:44 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37
+[08-Feb-2017 16:46:46 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37
+[08-Feb-2017 16:46:46 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37

@@ -1,4 +1,4 @@
-<?php
+<?php s
     class Create {
         function create_script($title, $description, $summary, $price, $itemPath) {
             require(ROOT . "/core/init.php");

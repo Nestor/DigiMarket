@@ -14,7 +14,10 @@ while ($gf = $grabFiles->fetch(PDO::FETCH_ASSOC)) {
     if ($enabled == 1) {
         $download->downloadFile($gf['file']);
     } else {
-        echo "<h1>This page has been disabled by the project developer</h1>";
+        echo "This function has been disabled<br>If you have downloaded this and I (the developer, Exus) have forgotten to
+          re-enable the files, then to enable this, open the file public/thisfilename.php and on the 6th line there
+          should be this: $enabled = 0; please change that to $enabled = 1; and then the file should work like normal<br>
+          <h1>I <b>DO NOT</b> recommend that you enable this page, it is a very bad idea unless you are debugging.</h1>";
     }
 }
 

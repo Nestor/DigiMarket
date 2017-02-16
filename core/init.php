@@ -10,10 +10,10 @@ include("autoload.php");
         
         /* MySQL Information */
         if (!defined("SQL_SERVER_IP")) {
-            define("SQL_SERVER_IP", $serverip);
-            define("SQL_USERNAME", $username);
-            define("SQL_PASSWORD", $password);
-            define("SQL_DB_NAME", $dbname);
+            define("SQL_SERVER_IP", $db_serverip);
+            define("SQL_USERNAME", $db_username);
+            define("SQL_PASSWORD", $db_password);
+            define("SQL_DB_NAME", $db_name);
         }
         /* Require the Connection File */
         require(ROOT . "/library/modules/connect/pdo_connect.php");
@@ -38,6 +38,17 @@ include("autoload.php");
         define("PASS_HASH_COST", $hash_cost);
 
         /* Item upload directory */
-        define("UPLOAD_DIR", ROOT . $fileUploadPath . "/");
+        define("FILE_UPLOAD_DIR", ROOT . $fileUploadPath . "/");
+        
+        /* Image upload directory */
+        define("IMAGE_UPLOAD_DIR", ROOT . $imageUploadPath . "/");
         }
 ?>
+
+<style>
+    body {
+        background-color:rgba(<?= $background ?>, 255);
+        color:dimgrey;
+    }
+</style>
+
