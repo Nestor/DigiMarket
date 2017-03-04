@@ -71,3 +71,4 @@ Stack trace:
 [08-Feb-2017 16:46:44 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37
 [08-Feb-2017 16:46:46 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37
 [08-Feb-2017 16:46:46 UTC] PHP Notice:  Undefined index: permissions in /home/exlabsco/public_html/DigiMarket-master/library/modules/user/ranks/ranks.php on line 37
+[14-Feb-2017 23:16:34 UTC] PHP Fatal error:  Call to undefined method Ranks::checkRank() in /home/exlabsco/public_html/DigiMarket-master/public/admin/users.php on line 8

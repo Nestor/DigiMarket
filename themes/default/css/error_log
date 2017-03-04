@@ -1,0 +1,3 @@
+[26-Feb-2017 15:21:19 UTC] PHP Warning:  require(ROOT/themes/default/configuration/configuration.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/themes/default/css/style.css.php on line 1
+[26-Feb-2017 15:21:19 UTC] PHP Warning:  require(ROOT/themes/default/configuration/configuration.php): failed to open stream: No such file or directory in /home/exlabsco/public_html/DigiMarket-master/themes/default/css/style.css.php on line 1
+[26-Feb-2017 15:21:19 UTC] PHP Fatal error:  require(): Failed opening required 'ROOT/themes/default/configuration/configuration.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/exlabsco/public_html/DigiMarket-master/themes/default/css/style.css.php on line 1

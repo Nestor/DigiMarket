@@ -42,13 +42,9 @@ include("autoload.php");
         
         /* Image upload directory */
         define("IMAGE_UPLOAD_DIR", ROOT . $imageUploadPath . "/");
+    
         }
-?>
 
-<style>
-    body {
-        background-color:rgba(<?= $background ?>, 255);
-        color:dimgrey;
-    }
-</style>
+
+?>
 

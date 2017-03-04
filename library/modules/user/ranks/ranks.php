@@ -37,7 +37,9 @@ Class Ranks {
       	      while ($cr = $checkRank->fetch(PDO::FETCH_ASSOC)) {
       	         if ( strpos($cr['privileges'], $perms) == true or $cr['privileges'] == "*" ) {
       	            $this->authed = 1;
-      	         }
+      	         } else {
+      	             $this->authed = 0;
+                 }
       	      }
    	   }
 	   }

@@ -1,25 +1,26 @@
 <?php
 session_start();
 ob_start();
+$fileBack = "../";
 define(ROOT, $_SERVER['DOCUMENT_ROOT'] . "/DigiMarket-master");
 require(ROOT . "/core/init.php");
 require(ROOT . "/library/modules/user/auth/auth.php");
+require(ROOT . "/core/theme.php");
 $auth = new Auth;
+$init->loadTheme($project_theme, $fileBack);
+
 ?>
 <!-- 
 	Files made up of HTML wont be commented in detail.
 -->
-<head>
-	<title><?php echo MARKET_NAME; ?> | Home</title>
-</head>
 
-<form action="login.php" method="post">
-<label>Login</label><br><br>
-<input type="email" id="email" name="email" placeholder="Email" required />&nbsp
-<input type="password" id="password" name="password" placeholder="Password" required /><br><br>
-<input type="text" id ="text" name="submitted" value=1 style="display:none;" />
-<input type="submit" />
-</form>
+<?= $init->loadTemplate("header"); ?>
+
+
+<?= $init->loadTemplate("loginForm"); ?>
+
+
+
 <?php
 if (!empty($_COOKIE['username']) and !empty($_COOKIE['password'])) {
 	echo "User Logged in... \n You don't need to login.";
@@ -29,9 +30,9 @@ if ( isset( $_POST['submitted'] ) ) {
 	if ( $_POST['submitted'] == 1 ) {        
 		$auth->doLogin($_POST['email'], $_POST['password']);
         if ($auth->authVal == 1) {
-            echo "Welcome back " . $auth->userName . "<br>Your account is now ready for use!";
+            echo "<h2 style='color:lightgreen;'>Welcome back " . $auth->userName . "<br>Your account is now ready for use!</h2>";
         } else {
-            echo "Something went wrong, please check your email or your password";
+            echo "<h2 style='color:#ff6b6b;'> Something went wrong, please check your email or your password</h2>";
         }
     }
 }  
